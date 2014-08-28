@@ -1,0 +1,212 @@
+
+* {
+	font-family: 'Muli', sans-serif;
+}
+
+html{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#main-header {
+	font-size: 150%;
+	position: relative;
+	margin: 0;
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('img/banner.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding: 8em 0 8em 0;
+	text-align: center;
+	color: #fff;
+}
+
+#main-header a{
+	text-decoration: none;
+}
+
+.main {
+	background: #fff;
+	text-align: center;
+	padding: 1em;
+	margin: 0;
+}
+
+#first {
+	background:#fff;
+
+}
+
+.about-me{
+	margin:1em;
+	padding:1em;	
+}
+
+ul.about-me li {
+	display: inline-block;
+	margin:1em;
+	width: 15em;
+	vertical-align:top;
+}
+
+.circular {
+	width: 14em;
+	height: 14em;
+	border-radius: 1em;
+	background:#0;
+	margin:1em;
+	box-shadow: 0 0 30px rgba(0, 0, 0, .8);
+}
+
+.circular.basic{
+	background: url(img/1.bmp);
+	background-position:center;
+	background-size: 115%;
+}
+
+.circular.coding{
+	background: url(img/2.jpg);
+	background-position:center;
+	background-size: 110%;
+}
+
+.circular.fitness{
+	background: url(img/3.jpg);
+	background-position:center;
+	background-size: 120%;
+}
+
+.circular.outro{
+	background: url(img/4.jpg);
+	background-position:center;
+	background-size: 101%;
+}
+
+#second{
+	
+	background:#D6EDFF;
+	
+	background: rgb(12,113,255); /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  rgba(12,113,255,1) 0%, rgba(155,243,255,1) 50%, rgba(33,114,255,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(12,113,255,1)), color-stop(50%,rgba(155,243,255,1)), color-stop(100%,rgba(33,114,255,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg,  rgba(12,113,255,1) 0%,rgba(155,243,255,1) 50%,rgba(33,114,255,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg,  rgba(12,113,255,1) 0%,rgba(155,243,255,1) 50%,rgba(33,114,255,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg,  rgba(12,113,255,1) 0%,rgba(155,243,255,1) 50%,rgba(33,114,255,1) 100%); /* IE10+ */
+	background: linear-gradient(135deg,  rgba(12,113,255,1) 0%,rgba(155,243,255,1) 50%,rgba(33,114,255,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c71ff', endColorstr='#2172ff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+#main-footer {
+	position: relative;
+	margin: 0;
+	text-align: center;
+	padding: 4em 0 8em 0;
+	box-shadow: inset 0 1px 0 0 #e6e6e6;
+}
+
+.button {
+	margin: 1em;
+	appearance: none;
+	position: relative;
+	display: inline-block;
+	padding: 0.85em 3em 0.85em 3em;
+	border-radius: 0.25em;
+	cursor: pointer;
+	text-decoration: none;
+	transition: all 0.25s ease-in-out;
+}
+
+.light{
+	background: rgba(255,255,255,0.2);
+	color: #fff;
+	box-shadow: inset 0 0 0 1px #fff;
+}
+
+.light:hover{
+	background: rgba(255,255,255,0.4);
+}
+
+.dark{
+	background: rgba(0,0,0,0.2);
+	color: #000000;
+	box-shadow: inset 0 0 0 1px #000000;
+}
+
+.dark:hover{
+	background: rgba(0,0,0,0.4);
+}
+
+.image-in-first{
+	width:10em;
+	height::10em;
+	display: none;
+}
+
+ul {
+	list-style: none;
+}
+
+ul.icons li {
+	display: inline-block;
+}
+
+ul.icons a {
+	display: inline-block;
+	margin: 2em;
+	width: 5em;
+	height: 5em;
+	background-size: 5em 5em;
+	background-repeat: no-repeat;
+}
+
+ul.icons a:hover{
+	transition: all 0.25s ease-in-out;
+	transform:scale(1.3,1.3);		
+}
+
+.icon.facebook{
+	background-image: url('img/Facebook_256x256x32.png');	   
+}
+
+.icon.twitter{
+	background-image: url('img/Twitter_256x256x32.png');	
+}
+
+.icon.youtube{
+	background-image: url('img/Youtube_256x256x32.png');	
+}
+
+.icon.pinterest{
+	background-image: url('img/Pinterest_256x256x32.png');	
+}
+
+.icon.instagram{
+	background-image: url('img/Instagram_256x256x32.png');	
+}
+
+.icon.googleplus{
+	background-image: url('img/GooglePlus_256x256x32.png');	
+}
+
+.me{
+	font-family: 'Dancing Script', cursive;
+	font-size:1.5em;
+	padding:0.5em;
+	color:#fff;
+}
+
+.me-dark{
+	font-family: 'Dancing Script', cursive;
+	font-size:1.5em;
+	padding:0.5em;
+	color:#0;
+}
+
+	  
