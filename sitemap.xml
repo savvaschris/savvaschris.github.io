@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>http://savvaschris.github.io/</loc>
+  <lastmod>2014-09-14T19:35:16+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://savvaschris.github.io/about.html</loc>
+  <lastmod>2014-09-14T19:35:16+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://savvaschris.github.io/RAM.html</loc>
+  <lastmod>2014-09-14T19:35:16+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://savvaschris.github.io/CNT.html</loc>
+  <lastmod>2014-09-14T19:35:16+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://savvaschris.github.io/FIT.html</loc>
+  <lastmod>2014-09-14T19:35:16+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://savvaschris.github.io/FFT.html</loc>
+  <lastmod>2014-09-14T19:35:16+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://savvaschris.github.io/index.html</loc>
+  <lastmod>2014-09-14T19:35:16+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+</urlset>

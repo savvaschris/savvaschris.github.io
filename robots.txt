@@ -1,0 +1,7 @@
+# robotstxt.org/
+
+User-agent: *
+
+Disallow: 
+Disallow: /cgi-bin/
+Sitemap: http://savvaschris.github.io/sitemap.xml
