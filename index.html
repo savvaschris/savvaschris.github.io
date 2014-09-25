@@ -28,22 +28,29 @@
     <![endif]-->
 </head>
 
-<body>
+<body id="index-page">
     <!--[if lt IE 7]>
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
+
     <!-- Header -->
-    <header id="main-header" class="row header">
-        <h1>Welcome</h1>
-        <h2>a website by Savvas Christodoulou aka </h2>
+    <!--<header id="main-header" class="header">-->
+
+    <!--<div style="position: fixed; z-index: -99; width: 100%; height: 100%">
+        <iframe frameborder="0" height="100%" width="100%"
+                src="https://youtube.com/embed/6v2L2UGZJAM?autoplay=1&t=2m30s&controls=0&showinfo=0&autohide=1&vq=hd720&iv_load_policy=3"></iframe>
+    </div>-->
+    <header id="main-header" class="header">
+        <h1><strong>Welcome</strong></h1>
+        <h3>a website by Savvas Christodoulou aka </h3>
         <p class="me">SavvasChris</p>
         <a id="first-button" href="#first" class="scroll-button light-button">About me</a>
     </header>
 
+
     <!-- First section-->
-    <section id="first" class="main">
+    <section id="first" class="main nav-begin">
         <header>
-            <h1><span class="me-dark">SavvasChris</span></h1>
             <h3>Some information about me</h3>
         </header>
         <div class="row">
@@ -53,7 +60,8 @@
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                 <div class="circular coding"></div>
-                <p>I've had an enthusiasm for computers and technology since an early age, so i went on and earned a BSc and MSc in Computer Science. I enjoy experimenting with new technologies that challenge my skills and help me obtain new knowledge.</p>
+                <p>I've had an enthusiasm for computers and technology since an early age, so i went on and earned a <a href="cv.html" target="_empty" title="Curriculum vitae">BSc and MSc in Computer Science</a>.
+                    I enjoy <a href="about.html" target="_empty" title="About my sites">experimenting with new technologies</a> that challenge my skills and help me obtain new knowledge.</p>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                 <div class="circular fitness"></div>
@@ -70,9 +78,8 @@
     </section>
 
     <!-- Second section-->
-    <section id="second" class="main">
+    <section id="second" class="main light-blue-gradient">
         <header>
-            <h1><span class="me-dark">SavvasChris</span></h1>
             <h3>Social media links</h3>
         </header>
         <div class="row">
@@ -102,13 +109,14 @@
 
     <!-- Footer -->
     <footer id="main-footer" class="row">
-        <p>
+        <p style="margin-bottom:2em">
             <span>Sites under development: </span>
-            <a href="about.html">ABT</a>
-            <a href="RAM.html">RAM</a>
-            <a href="CNT.html">CNT</a>
-            <a href="FIT.html">FIT</a>
-            <a href="FFT.html">FFT</a>
+            <a href="CV.html" target="_empty" class="site-button dark-button">CV</a>
+            <a href="About.html" target="_empty" class="site-button dark-button">ABOUT</a>
+            <a href="RAM.html" target="_empty" class="site-button dark-button">RAM</a>
+            <a href="CNT.html" target="_empty" class="site-button dark-button">CNT</a>
+            <a href="FIT.html" target="_empty" class="site-button dark-button">FIT</a>
+            <a href="FFT.html" target="_empty" class="site-button dark-button">FFT</a>
         </p>
         <p>Contact: savvaschris@yahoo.com</p>
         <p>&copy; 2014 <a href="#">SavvasChris&trade;</a></p>
