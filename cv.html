@@ -35,6 +35,31 @@
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
+    <!--Navigation bar-->
+    <div id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation" style="opacity:0">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand active" href="index.html"><span class="me-dark">SavvasChris</span></a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="CNT.html">CNT</a></li>
+                    <li><a href="FFT.html">FFT</a></li>
+                    <li><a href="FIT.html">FIT</a></li>
+                    <li><a href="RAM.html">RAM</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
     <!-- Header -->
     <header class="header">
         <h1><strong>Curriculum Vitae</strong></h1>
@@ -44,46 +69,60 @@
     </header>
 
     <!--Section Education-->
-    <section id="education">
+    <section id="education" class="nav-begin">
         <h2><strong>Education</strong></h2>
-        <h3 id="masters">MSc Computer Science - University of Cyprus 
+        <h3 id="masters">
+            MSc Computer Science - University of Cyprus
             <span class="glyphicon glyphicon-chevron-down"></span>
             <span class="glyphicon glyphicon-chevron-right"></span>
         </h3>
         <div id="masters-education" class="row">
             <div class="col-lg-4">
                 <p id="gvc" class="course">Graphics and Visual Computation <span class="glyphicon glyphicon-chevron-down"></span><span class="glyphicon glyphicon-chevron-right"></span></p>
-                <p id="gvc-text" class="course-description">Introduction to fundamentals of Computer Graphics, rendering pipeline, global and local illumination, shadows, GPU, and OpenGL. 
-                                                            Introduction to Image/Video processing, fourier transform, compression, encoding, motion estimation, and Matlab.</p>
-                <p id="ase" class="course">Advanced Software Engineering <span class="glyphicon glyphicon-chevron-down" ></span><span class="glyphicon glyphicon-chevron-right" ></span></p>
+                <p id="gvc-text" class="course-description">
+                    Introduction to fundamentals of Computer Graphics, rendering pipeline, global and local illumination, shadows, GPU, and OpenGL.
+                    Introduction to Image/Video processing, fourier transform, compression, encoding, motion estimation, and Matlab.
+                </p>
+                <p id="ase" class="course">Advanced Software Engineering <span class="glyphicon glyphicon-chevron-down"></span><span class="glyphicon glyphicon-chevron-right"></span></p>
                 <p id="ase-text" class="course-description">Introduced to design patterns, model driven engineering, software architecture, component based software engineering, middleware and web services.</p>
-                <p id="compv" class="course">Computer Vision <span class="glyphicon glyphicon-chevron-down" ></span><span class="glyphicon glyphicon-chevron-right" ></span></p>
-                <p id="compv-text" class="course-description">Exploration of various Computer Vision algorithms for filtering, feature detection and extraction, fitting, stereo, object recognition, 
-                                                              face detection and recognition, optical flow and tracking, and introduction to OpenCV.</p>
-                <p id="compg" class="course">Computer Games Software Technology <span class="glyphicon glyphicon-chevron-down" ></span><span class="glyphicon glyphicon-chevron-right" ></span></p>
-                <p id="compg-text" class="course-description">Game developement fundamentals, game design, game engine architecture, rotations, transforms, camera, splines, collision, visibility, 
-                                                              steering behaviors, game AI, character animation. Introduction to Unity game engine.</p>
+                <p id="compv" class="course">Computer Vision <span class="glyphicon glyphicon-chevron-down"></span><span class="glyphicon glyphicon-chevron-right"></span></p>
+                <p id="compv-text" class="course-description">
+                    Exploration of various Computer Vision algorithms for filtering, feature detection and extraction, fitting, stereo, object recognition,
+                    face detection and recognition, optical flow and tracking, and introduction to OpenCV.
+                </p>
+                <p id="compg" class="course">Computer Games Software Technology <span class="glyphicon glyphicon-chevron-down"></span><span class="glyphicon glyphicon-chevron-right"></span></p>
+                <p id="compg-text" class="course-description">
+                    Game developement fundamentals, game design, game engine architecture, rotations, transforms, camera, splines, collision, visibility,
+                    steering behaviors, game AI, character animation. Introduction to Unity game engine.
+                </p>
             </div>
             <div class="col-lg-4">
-                <p id="resMethCS" class="course">Research Methodologies in Computer Science <span class="glyphicon glyphicon-chevron-down" ></span><span class="glyphicon glyphicon-chevron-right" ></span></p>
+                <p id="resMethCS" class="course">Research Methodologies in Computer Science <span class="glyphicon glyphicon-chevron-down"></span><span class="glyphicon glyphicon-chevron-right"></span></p>
                 <p id="resMethCS-text" class="course-description">Introduced to research methodologies in computer science, LaTex, wathced seminars on various topics and written part of a literature review on digital matting and compositing.</p>
-                <p id="advDb" class="course">Advanced Databases <span class="glyphicon glyphicon-chevron-down" ></span><span class="glyphicon glyphicon-chevron-right" ></span></p>
-                <p id="advDb-text" class="course-description">Introduced to Relational Database management systems internals, index structures, query optimization, transaction consistency, rollback techniques, distributed and cloud databases,
-                                                              Big Data, NoSQL, watched seminars on various database research areas and
-                                                              written part of a literature review on <a href="https://dl.dropboxusercontent.com/u/57084205/ReportAdvDB.pdf" target="_empty">energy efficient databases</a>.</p>
-                <p id="distrSys" class="course">Distributed Systems <span class="glyphicon glyphicon-chevron-down" ></span><span class="glyphicon glyphicon-chevron-right" ></span></p>
-                <p id="distrSys-text" class="course-description">Introduced to concept of Distributed Systems, communication, naming, distributed file systems, security, fault tolerance, distributed shared memory, 
-                                                                   master-worker computing, and modelling. Programming DS using POSIX in Unix systems.</p>
-                <p id="compNetInt" class="course">Computer Networks and the Internet <span class="glyphicon glyphicon-chevron-down" ></span><span class="glyphicon glyphicon-chevron-right" ></span></p>
-                <p id="compNetInt-text" class="course-description">Intoduction to Networks, data link layer, network layer, circuit/packet switched networks, internetworking, routing, transport layer services and principles,
-                                                                   network control issues and quality of service.</p>
-                <p id="mastThe" class="course">Master Thesis <span class="glyphicon glyphicon-chevron-down" ></span><span class="glyphicon glyphicon-chevron-right" ></span></p>
+                <p id="advDb" class="course">Advanced Databases <span class="glyphicon glyphicon-chevron-down"></span><span class="glyphicon glyphicon-chevron-right"></span></p>
+                <p id="advDb-text" class="course-description">
+                    Introduced to Relational Database management systems internals, index structures, query optimization, transaction consistency, rollback techniques, distributed and cloud databases,
+                    Big Data, NoSQL, watched seminars on various database research areas and
+                    written part of a literature review on <a href="https://dl.dropboxusercontent.com/u/57084205/ReportAdvDB.pdf" target="_empty">energy efficient databases</a>.
+                </p>
+                <p id="distrSys" class="course">Distributed Systems <span class="glyphicon glyphicon-chevron-down"></span><span class="glyphicon glyphicon-chevron-right"></span></p>
+                <p id="distrSys-text" class="course-description">
+                    Introduced to concept of Distributed Systems, communication, naming, distributed file systems, security, fault tolerance, distributed shared memory,
+                    master-worker computing, and modelling. Programming DS using POSIX in Unix systems.
+                </p>
+                <p id="compNetInt" class="course">Computer Networks and the Internet <span class="glyphicon glyphicon-chevron-down"></span><span class="glyphicon glyphicon-chevron-right"></span></p>
+                <p id="compNetInt-text" class="course-description">
+                    Intoduction to Networks, data link layer, network layer, circuit/packet switched networks, internetworking, routing, transport layer services and principles,
+                    network control issues and quality of service.
+                </p>
+                <p id="mastThe" class="course">Master Thesis <span class="glyphicon glyphicon-chevron-down"></span><span class="glyphicon glyphicon-chevron-right"></span></p>
                 <p id="mastThe-text" class="course-description">Supervised by <a href="http://www.cs.ucy.ac.cy/~yiorgos/" target="_empty">Dr. Yiorgos Chrysanthou</a>, thesis title "Digital matting and compositing" .</p>
             </div>
         </div>
-        <h3 id="bachelors">BSc Computer Science - University of Nicosia 
-            <span class="glyphicon glyphicon-chevron-down" ></span>
-            <span class="glyphicon glyphicon-chevron-right" ></span>
+        <h3 id="bachelors">
+            BSc Computer Science - University of Nicosia
+            <span class="glyphicon glyphicon-chevron-down"></span>
+            <span class="glyphicon glyphicon-chevron-right"></span>
         </h3>
         <div id="bachelors-education" class="row">
             <div class="col-lg-3">

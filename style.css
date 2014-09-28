@@ -8,13 +8,10 @@
 	text-align: center;
 	color: #fff;
 }
-/*Main page header*/
-#main-header {
-	background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('img/banner.jpg');
-	background-size: cover;
-	background-position: center center;
-	background-repeat: no-repeat;
-    background-attachment: fixed;
+
+.youtube-header {
+	position: fixed;
+    z-index: -99;
 }
 
 /*Default section class*/
@@ -36,14 +33,6 @@
 	text-decoration: none;
 	transition: all 0.25s ease-in-out;
 }
-.site-button {
-    margin: 1em;
-	padding: 0.3em 2em 0.3em 2em;
-	cursor: pointer;
-	text-decoration: none;
-	transition: all 0.25s ease-in-out;
-}
-
 .light-button{
 	background: rgba(255,255,255,0.2);
 	color: #fff;
@@ -152,13 +141,9 @@
 
 #first{
     background:#fff;
-    opacity:0;
 }
 #first header{
     padding-top:2em;
-}
-#second{
-    opacity:0;
 }
 #second header{
     padding-top:2em;
@@ -345,11 +330,9 @@ animation-timing-function: linear;
 -webkit-animation-iteration-count: infinite;
 animation-iteration-count: infinite;
 }
-
 .col-md-6{
     padding:1em;
 }
-
 
 /***********************************************************************************************************************/
 /*Responsive styling*/
@@ -368,10 +351,8 @@ animation-iteration-count: infinite;
         width: 20em;
 	    height: 20em;
     }
-    .icon {
-        width: 10em;
-        height: 10em;
-        background-size: 11.3em 11.3em;
+    .first-text, footer p, #cv p{
+        font-size:1.2em;
     }
     #stars-key{
         font-size:1em;

@@ -33,13 +33,33 @@
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <!-- Header -->
-    <!--<header id="main-header" class="header">-->
+    <!--Navigation bar-->
+    <div id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation" style="opacity:0">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand active" href="index.html"><span class="me-dark">SavvasChris</span></a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="CNT.html">CNT</a></li>
+                    <li><a href="FFT.html">FFT</a></li>
+                    <li><a href="FIT.html">FIT</a></li>
+                    <li><a href="RAM.html">RAM</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
-    <!--<div style="position: fixed; z-index: -99; width: 100%; height: 100%">
-        <iframe frameborder="0" height="100%" width="100%"
-                src="https://youtube.com/embed/6v2L2UGZJAM?autoplay=1&t=2m30s&controls=0&showinfo=0&autohide=1&vq=hd720&iv_load_policy=3"></iframe>
-    </div>-->
+    <!-- Header -->
+    <div id="player" class="youtube-header"></div>
     <header id="main-header" class="header">
         <h1><strong>Welcome</strong></h1>
         <h3>a website by Savvas Christodoulou aka </h3>
@@ -47,9 +67,8 @@
         <a id="first-button" href="#first" class="scroll-button light-button">About me</a>
     </header>
 
-
     <!-- First section-->
-    <section id="first" class="main nav-begin">
+    <section id="first" class="main nav-begin" style="opacity:0">
         <header>
             <h3>Some information about me</h3>
         </header>
@@ -60,16 +79,16 @@
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                 <div class="circular coding"></div>
-                <p>I've had an enthusiasm for computers and technology since an early age, so i went on and earned a <a href="cv.html" target="_empty" title="Curriculum vitae">BSc and MSc in Computer Science</a>.
+                <p class="first-text">I've had an enthusiasm for computers and technology since an early age, so i went on and earned a <a href="cv.html" target="_empty" title="Curriculum vitae">BSc and MSc in Computer Science</a>.
                     I enjoy <a href="about.html" target="_empty" title="About my sites">experimenting with new technologies</a> that challenge my skills and help me obtain new knowledge.</p>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                 <div class="circular fitness"></div>
-                <p class="first-text">I have a passion for physical fitness and rarely spend a day without any physical activity. I continuously study the human body and try to find ways to push it to its limits, in an effort to improve my physical abilities.</p>
+                <p class="first-text">I have a passion for physical fitness and rarely spend a day without any physical activity. I love pushing my body to its limits, in an effort to improve my physical abilities. After all, <i>a healthy mind dwells in a healthy body</i>.</p>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                 <div class="circular outro"></div>
-                <p class="first-text">I'm on a constant journey, trying to learn new things, see new places and gain new experiences. Check out my social media pages to learn more about me and follow my daily activities!</p>
+                <p class="first-text">I'm on a constant journey, trying to learn new things, see new places and gain new experiences. Check out my social media pages to get to know me better and follow my daily activities!</p>
             </div>
         </div>
         <footer>
@@ -78,7 +97,7 @@
     </section>
 
     <!-- Second section-->
-    <section id="second" class="main light-blue-gradient">
+    <section id="second" class="main light-blue-gradient" style="opacity:0">
         <header>
             <h3>Social media links</h3>
         </header>
@@ -109,15 +128,6 @@
 
     <!-- Footer -->
     <footer id="main-footer" class="row">
-        <p style="margin-bottom:2em">
-            <span>Sites under development: </span>
-            <a href="cv.html" target="_empty" class="site-button dark-button">CV</a>
-            <a href="about.html" target="_empty" class="site-button dark-button">ABOUT</a>
-            <a href="RAM.html" target="_empty" class="site-button dark-button">RAM</a>
-            <a href="CNT.html" target="_empty" class="site-button dark-button">CNT</a>
-            <a href="FIT.html" target="_empty" class="site-button dark-button">FIT</a>
-            <a href="FFT.html" target="_empty" class="site-button dark-button">FFT</a>
-        </p>
         <p>Contact: savvaschris@yahoo.com</p>
         <p>&copy; 2014 <a href="#">SavvasChris&trade;</a></p>
     </footer>
